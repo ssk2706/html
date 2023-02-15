@@ -1,0 +1,50 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+  }
+  
+  header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1em;
+  }
+  
+  header h1 {
+    margin: 0;
+  }
+  
+  main {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  #image {
+    flex: 1;
+    padding: 1em;
+  }
+  
+  #image img {
+    max-width: 100%;
+  }
+  
+  #tribute-info {
+    flex: 2;
+    padding: 1em;
+  }
+  
+  #tribute-info h2 {
+    margin-top: 0;
+  }
+  
+  #tribute-info p {
+    text-align: justify;
+  }
+  
+  footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1em;
+  }
+  
